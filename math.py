@@ -1,6 +1,6 @@
-number = int(input("Write You Number Here: "))
+number = int(input("Write Your Number::: "))
 
-if number % 5 == 0:
-    print("It Is An Even Number")
+if number % 2 == 0:
+    print(f"{number} This Number Is An Even Number")
 else:
-    print("It Is An Odd Number")
+    print(f"{number} This Number Is An Odd Number")
